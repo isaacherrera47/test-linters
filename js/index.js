@@ -7,4 +7,4 @@ let newFunction = () => console.log('printing let')
 const anotherFunction = () =>console.log('printing const');
 
 
-anotherFunction();
+anotherFunction()
