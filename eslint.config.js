@@ -5,9 +5,13 @@ export default [
   js.configs.recommended,
   {
     files: ["**/*.js"],
-    parserOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
+    languageOptions: {
+        ecmaVersion: 2022,
+        sourceType: "module",
+        globals: {
+            ...globals.browser,
+            ...globals.node,
+        }
     },
     rules: {
       'no-console': 'warn', // Warn on console.log statements
