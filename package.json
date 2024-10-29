@@ -14,5 +14,6 @@
     "license": "N/A",
     "devDependencies": {
       "eslint": "9.13.0"
-    }
+    },
+    "type": "module"
   }
