@@ -13,6 +13,6 @@
     "author": "your name",
     "license": "N/A",
     "devDependencies": {
-      "eslint": "^8.46.0"
+      "eslint": "9.13.0"
     }
   }

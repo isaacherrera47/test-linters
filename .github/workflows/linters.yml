@@ -17,11 +17,8 @@ jobs:
     - uses: actions/setup-node@v4
       with:
           node-version: 20
-    - run: yarn install
-    - uses: sibiraj-s/action-eslint@v3
-      with:
-        extensions: 'js,jsx,ts,tsx'
-        annotations: true
+    - run: npm install
+    - run: npx eslint
     - name: Install python dependencies
       run: |
         python -m pip install --upgrade pip
