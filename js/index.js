@@ -8,3 +8,4 @@ const anotherFunction = () => console.log('printing const');
 
 
 anotherFunction();
+newFunction();
