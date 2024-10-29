@@ -11,5 +11,8 @@
       "url": "the repositories url"
     },
     "author": "your name",
-    "license": "N/A"
+    "license": "N/A",
+    "dependencies": {
+      "eslint": "^9.13.0"
+    }
   }
